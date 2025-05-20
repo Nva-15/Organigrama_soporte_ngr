@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organigrama de Soporte - HD - NOC</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>EQUIPO DE SOPORTE - HD - NOC</h1>
+      <div class="proximos-cumples">
+        <h3><i class="fas fa-birthday-cake"></i> Próximos cumpleaños</h3>
+        <div id="cumpleanos-notificacion"></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Nivel Jefe -->
+      <div class="nivel">
+        <div class="nivel-titulo">JEFE</div>
+        <div class="miembro" onclick="mostrarPerfil('jose-carlos')">
+          <div class="avatar"><i class="fas fa-user-tie"></i></div>
+          <div class="nombre">JOSE CARLOS</div>
+          <div class="cargo">Jefe de SOP - HD Y NOC</div>
+        </div>
+      </div>
+
+      <!-- Nivel Supervisores -->
+      <div class="nivel">
+        <div class="nivel-titulo">SUPERVISORES</div>
+        <div class="miembros-horizontal">
+          <div class="miembro" onclick="mostrarPerfil('andres-ramos')">
+            <div class="avatar"><i class="fas fa-user-shield"></i></div>
+            <div class="nombre">ANDRES RAMOS</div>
+            <div class="cargo">Supervisor de HD</div>
+          </div>
+          <div class="miembro" onclick="mostrarPerfil('sergio-acosta')">
+            <div class="avatar"><i class="fas fa-user-shield"></i></div>
+            <div class="nombre">SERGIO ACOSTA</div>
+            <div class="cargo">Supervisor de SOP</div>
+          </div>
+          <div class="miembro" onclick="mostrarPerfil('leo-cordova')">
+            <div class="avatar"><i class="fas fa-user-shield"></i></div>
+            <div class="nombre">LEO CORDOVA</div>
+            <div class="cargo">Supervisor de SOP</div>
+          </div>
+          <div class="miembro" onclick="mostrarPerfil('geam-pari')">
+            <div class="avatar"><i class="fas fa-user-shield"></i></div>
+            <div class="nombre">GEAM PARI</div>
+            <div class="cargo">Supervisor de NOC</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nivel Técnicos -->
+      <div class="nivel">
+        <div class="nivel-titulo">TÉCNICOS DE SOPORTE</div>
+        <div class="miembros-horizontal">
+          <div class="miembro" onclick="mostrarPerfil('eli-neiser')">
+            <div class="avatar"><i class="fas fa-user-cog"></i></div>
+            <div class="nombre">ELI NEISER VASQUEZ</div>
+            <div class="cargo">Líder Técnico (LT)</div>
+          </div>
+          <div class="miembro" onclick="mostrarPerfil('jean-lopez')">
+            <div class="avatar"><i class="fas fa-user-cog"></i></div>
+            <div class="nombre">JEAN LOPEZ</div>
+            <div class="cargo">Líder Técnico (LT)</div>
+          </div>
+          <div class="miembro" onclick="mostrarPerfil('axel-aguirre')">
+            <div class="avatar"><i class="fas fa-user-cog"></i></div>
+            <div class="nombre">AXEL AGUIRRE</div>
+            <div class="cargo">Líder Técnico (LT)</div>
+          </div>
+          <div class="miembro" onclick="mostrarPerfil('genaro-barrera')">
+            <div class="avatar"><i class="fas fa-user-cog"></i></div>
+            <div class="nombre">GENARO LA BARRERA</div>
+            <div class="cargo">Técnico de SOP</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Equipos HD y NOC -->
+      <div class="equipos">
+        <div class="equipo">
+          <div class="nivel-titulo">EQUIPO HD</div>
+          <div class="miembros-horizontal">
+            <div class="miembro" onclick="mostrarPerfil('naim-cuya')">
+              <div class="avatar"><i class="fas fa-headset"></i></div>
+              <div class="nombre">NAIM CUYA</div>
+              <div class="cargo">Back Office (BO)</div>
+            </div>
+            <div class="miembro" onclick="mostrarPerfil('sheyla')">
+              <div class="avatar"><i class="fas fa-headset"></i></div>
+              <div class="nombre">SHEYLA</div>
+              <div class="cargo">Back Office (BO)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="equipo">
+          <div class="nivel-titulo">EQUIPO NOC</div>
+          <div class="miembros-horizontal">
+            <div class="miembro" onclick="mostrarPerfil('hanz')">
+              <div class="avatar"><i class="fas fa-network-wired"></i></div>
+              <div class="nombre">HANZ</div>
+              <div class="cargo">Operador NOC</div>
+            </div>
+            <div class="miembro" onclick="mostrarPerfil('luis')">
+              <div class="avatar"><i class="fas fa-network-wired"></i></div>
+              <div class="nombre">LUIS</div>
+              <div class="cargo">Operador NOC</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Ventana modal de perfil -->
+  <div id="perfil-modal" class="modal">
+    <div class="modal-contenido">
+      <span class="cerrar" onclick="cerrarModal()">&times;</span>
+      <div class="perfil-header">
+        <div class="avatar-grande">
+          <img id="perfil-foto" src="" alt="Foto del colaborador">
+        </div>
+        <div>
+          <h2 id="perfil-nombre"></h2>
+          <h3 id="perfil-cargo"></h3>
+        </div>
+      </div>
+      <div class="perfil-detalle">
+        <p><strong>Descripción:</strong> <span id="perfil-descripcion"></span></p>
+        <p><strong>Hobby:</strong> <span id="perfil-hobby"></span></p>
+        <p><strong>Cumpleaños:</strong> <span id="perfil-cumpleanos"></span></p>
+        <p><strong>Ingreso:</strong> <span id="perfil-ingreso"></span></p>
+      </div>
+      <div class="notificacion-tiempo" id="tiempo-empresa"></div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
