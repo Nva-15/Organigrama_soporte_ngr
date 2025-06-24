@@ -109,8 +109,8 @@ const equipo = {
       ingreso: '05/05/2021',
       foto: 'img/neiser.png'
     },
-    'hanz': {
-      nombre: 'HANZ',
+    'hans': {
+      nombre: 'Hans Cutti',
       cargo: 'Técnico de NOC',
       descripcion: 'Monitoreo de red y respuesta a incidentes.',
       hobby: 'Cine y series',
@@ -119,14 +119,23 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'luis': {
-      nombre: 'LUIS',
+      nombre: 'Luis Talaverano',
       cargo: 'Técnico de NOC',
       descripcion: 'Administración de servidores y redes.',
       hobby: 'Fútbol y música',
       cumpleanos: '09/01/1994',
       ingreso: '14/02/2022',
       foto: 'img/neiser.png'
-    }
+    },
+    'yesenia': {
+      nombre: 'Yesenia Calixtro',
+      cargo: 'Técnico de NOC',
+      descripcion: 'Monitoreo de red y respuesta a incidentes.',
+      hobby: 'Cine y series',
+      cumpleanos: '12/06/1986',
+      ingreso: '30/07/2018',
+      foto: 'img/neiser.png'
+    },
   };
   
   // Mostrar próximos cumpleaños
