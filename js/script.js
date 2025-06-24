@@ -1,7 +1,7 @@
 // Datos del equipo con fotos
 const equipo = {
     'jose-carlos': {
-      nombre: 'JOSE CARLOS',
+      nombre: 'Jose Carlos Ruiz Sanchez',
       cargo: 'Jefe de Soporte',
       descripcion: 'Responsable de la gestión general del equipo de soporte.',
       hobby: 'Ciclismo y lectura de tecnología',
@@ -9,8 +9,18 @@ const equipo = {
       ingreso: '10/05/2010',
       foto: 'img/neiser.png'
     },
+    // Equipo Supervisores
+    'joel': {
+      nombre: 'Joel Angel Sanchez Sanchez',
+      cargo: 'Supervisor de SP-HD-NOC',
+      descripcion: 'Supervisa el equipo de Help Desk y garantiza la calidad del servicio.',
+      hobby: 'Fútbol y videojuegos',
+      cumpleanos: '22/07/1985',
+      ingreso: '15/08/2015',
+      foto: 'img/neiser.png'
+    },
     'andres-ramos': {
-      nombre: 'ANDRES RAMOS',
+      nombre: 'Andres Saul Ramos Sanchez',
       cargo: 'Supervisor de HD',
       descripcion: 'Supervisa el equipo de Help Desk y garantiza la calidad del servicio.',
       hobby: 'Fútbol y videojuegos',
@@ -19,25 +29,25 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'sergio-acosta': {
-      nombre: 'SERGIO ACOSTA',
+      nombre: 'Sergio Augusto Acosta Huapaya',
       cargo: 'Supervisor de SOP',
       descripcion: 'Encargado del equipo de soporte técnico de segundo nivel.',
       hobby: 'Fotografía y viajes',
-      cumpleanos: '03/11/1988',
-      ingreso: '20/03/2016',
+      cumpleanos: '03/07/1988',
+      ingreso: '22/07/1985',
       foto: 'img/neiser.png'
     },
     'leo-cordova': {
-      nombre: 'LEO CORDOVA',
+      nombre: 'Leo Marcelino Cordova Cucho',
       cargo: 'Supervisor de SOP',
       descripcion: 'Coordinador del equipo de soporte técnico especializado.',
       hobby: 'Música y cocina',
-      cumpleanos: '18/09/1987',
+      cumpleanos: '18/07/1987',
       ingreso: '05/07/2017',
       foto: 'img/neiser.png'
     },
     'geam-pari': {
-      nombre: 'GEAM PARI',
+      nombre: 'Geam Franco Alexis Pari Pinedo',
       cargo: 'Supervisor de NOC',
       descripcion: 'Responsable del centro de operaciones de red.',
       hobby: 'Trekking y tecnología',
@@ -45,8 +55,9 @@ const equipo = {
       ingreso: '12/10/2014',
       foto: 'img/neiser.png'
     },
+    // Equipo Soporte
     'eli-neiser': {
-      nombre: 'ELI NEISER VASQUEZ',
+      nombre: 'Eli Neiser Vasquez Alarcon',
       cargo: 'Líder Técnico (LT)',
       descripcion: 'Técnico en soporte TI egresado de SENATI.',
       hobby: 'Jugar futbol, escuchar música y ver película',
@@ -56,7 +67,7 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'jean-lopez': {
-      nombre: 'JEAN LOPEZ',
+      nombre: 'Jean Carlos Lopez Sanchez',
       cargo: 'Líder Técnico (LT)',
       descripcion: 'Experto en sistemas y soporte técnico avanzado.',
       hobby: 'Robótica y electrónica',
@@ -65,7 +76,7 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'axel-aguirre': {
-      nombre: 'AXEL AGUIRRE',
+      nombre: 'Axel Aguirre Encarnacion',
       cargo: 'Líder Técnico (LT)',
       descripcion: 'Especialista en infraestructura y redes.',
       hobby: 'Videojuegos y deportes',
@@ -74,7 +85,7 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'marvin-porta': {
-      nombre: 'Marvin Porta',
+      nombre: 'Marvin Ivan Porta Evangelista',
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
@@ -83,7 +94,7 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'shirley-gonzales': {
-      nombre: 'Shirley Gonzales',
+      nombre: 'Shirley Carolina Gonzales Palacios',
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
@@ -91,8 +102,63 @@ const equipo = {
       ingreso: '03/03/2013',
       foto: 'img/shirley.png'
     },
+    'eric': {
+      nombre: 'Eric Guerreros Huaman',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'brando': {
+      nombre: 'Brando Renato Medina Vasquez',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'miguel': {
+      nombre: 'Miguel Angel Ramirez Huarancca',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'rodrigo': {
+      nombre: 'Rodrigo Villanueva Vasquez',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'jean-mejia': {
+      nombre: 'Jean Pierre Jesus Mejia Mango',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'mirian': {
+      nombre: 'Miriam Ruiz Puma',
+      cargo: 'Back Office (BO)',
+      descripcion: 'Soporte administrativo y gestión proveedores.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    // Equipo HD
     'naim-cuya': {
-      nombre: 'NAIM CUYA',
+      nombre: 'Naim Victor Cuya Delesma',
       cargo: 'Back Office (BO)',
       descripcion: 'Soporte administrativo y gestión de tickets.',
       hobby: 'Lectura y escritura',
@@ -101,7 +167,7 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'sheyla': {
-      nombre: 'SHEYLA',
+      nombre: 'Sheyla Galarza Galarza',
       cargo: 'Back Office (BO)',
       descripcion: 'Atención al cliente y seguimiento de casos.',
       hobby: 'Baile y manualidades',
@@ -109,8 +175,63 @@ const equipo = {
       ingreso: '05/05/2021',
       foto: 'img/neiser.png'
     },
+    'joseph': {
+      nombre: 'Joseph Alexander Jaramillo Alvarez',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'anderson': {
+      nombre: 'Anderson Adrian Pisfil Maza',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'oscar': {
+      nombre: 'Oscar Grimaldo Torres Vega',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'sthephanny': {
+      nombre: 'Sthephanny Naomy Cristal Callan Vicente',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'anyela': {
+      nombre: 'Anyela Melissa Luna Huamani',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    'alfonso': {
+      nombre: 'Alfonso Giampierre Rios Rodriguez',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/neiser.png'
+    },
+    // Equipo NOC
     'hans': {
-      nombre: 'Hans Cutti',
+      nombre: 'Hans Joan Cutti Ciprian',
       cargo: 'Técnico de NOC',
       descripcion: 'Monitoreo de red y respuesta a incidentes.',
       hobby: 'Cine y series',
@@ -119,7 +240,7 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'luis': {
-      nombre: 'Luis Talaverano',
+      nombre: 'Luis Isaac Talaverano Ramirez',
       cargo: 'Técnico de NOC',
       descripcion: 'Administración de servidores y redes.',
       hobby: 'Fútbol y música',
@@ -128,7 +249,7 @@ const equipo = {
       foto: 'img/neiser.png'
     },
     'yesenia': {
-      nombre: 'Yesenia Calixtro',
+      nombre: 'Yesenia Sheyla Calixtro Laurente',
       cargo: 'Técnico de NOC',
       descripcion: 'Monitoreo de red y respuesta a incidentes.',
       hobby: 'Cine y series',
@@ -162,21 +283,32 @@ const equipo = {
         });
       }
     }
-    
     // Ordenar por días restantes
-    cumpleanosProximos.sort((a, b) => a.dias - b.dias);
-    
-    const notificacion = document.getElementById('cumpleanos-notificacion');
-    
-    if (cumpleanosProximos.length > 0) {
-      const proximos = cumpleanosProximos.slice(0, 3).map(persona => 
-        `${persona.nombre} (${persona.fecha}) - ${persona.dias} días`
-      ).join(', ');
-      
-      notificacion.textContent = proximos + (cumpleanosProximos.length > 3 ? '...' : '');
-    } else {
-      notificacion.textContent = 'No hay cumpleaños próximos en los próximos 30 días';
+  cumpleanosProximos.sort((a, b) => a.dias - b.dias);
+
+  const notificacion = document.getElementById('cumpleanos-notificacion');
+  notificacion.innerHTML = ''; // Limpiar contenido previo
+
+  if (cumpleanosProximos.length > 0) {
+    const lista = document.createElement('ul');
+    lista.style.paddingLeft = '20px';
+
+    cumpleanosProximos.slice(0, 3).forEach(persona => {
+      const item = document.createElement('li');
+      item.textContent = `${persona.nombre} (${persona.fecha}) - ${persona.dias} días`;
+      lista.appendChild(item);
+    });
+
+    notificacion.appendChild(lista);
+
+    if (cumpleanosProximos.length > 3) {
+      const ellipsis = document.createElement('p');
+      ellipsis.textContent = '...';
+      notificacion.appendChild(ellipsis);
     }
+  } else {
+    notificacion.textContent = 'No hay cumpleaños próximos en los próximos 30 días';
+  }
   }
   
   // Calcular tiempo en la empresa

@@ -45,6 +45,9 @@ body {
     font-weight: bold;
     margin-top: 5px;
   }
+  #cumpleanos-notificacion li {
+  margin-bottom: 4px;
+  }
   
   /* Estructura del organigrama */
   .nivel {
