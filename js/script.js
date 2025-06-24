@@ -73,14 +73,23 @@ const equipo = {
       ingreso: '10/09/2020',
       foto: 'img/neiser.png'
     },
-    'genaro-barrera': {
-      nombre: 'GENARO LA BARRERA',
+    'marvin-porta': {
+      nombre: 'Marvin Porta',
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
       cumpleanos: '19/05/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
+    },
+    'shirley-gonzales': {
+      nombre: 'Shirley Gonzales',
+      cargo: 'Técnico de Soporte',
+      descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
+      hobby: 'Pesca y carpintería',
+      cumpleanos: '19/05/1984',
+      ingreso: '03/03/2013',
+      foto: 'img/shirley.png'
     },
     'naim-cuya': {
       nombre: 'NAIM CUYA',
