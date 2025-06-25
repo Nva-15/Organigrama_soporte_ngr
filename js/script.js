@@ -1,11 +1,20 @@
 // Datos del equipo con fotos
 const equipo = {
+    'alfredo': {
+      nombre: 'Alfredo Novoa Linares',
+      cargo: 'Gerente de Infraestructura y Soporte',
+      descripcion: 'Profesional con amplia experiencia en gestión de tecnologías de la información, especializado en infraestructura y soporte técnico. Lidera proyectos estratégicos para garantizar la operatividad y eficiencia tecnológica de la organización.',
+      hobby: 'Aficionado al ciclismo de montaña y lector de novelas históricas',
+      cumpleanos: '16/08/1980',
+      ingreso: '10/05/2020',
+      foto: 'img/alfredo.png'
+    },
     'jose-carlos': {
       nombre: 'Jose Carlos Ruiz Sanchez',
       cargo: 'Jefe de Soporte',
       descripcion: 'Responsable de la gestión general del equipo de soporte.',
       hobby: 'Ciclismo y lectura de tecnología',
-      cumpleanos: '15/03/1980',
+      cumpleanos: '10/11/1980',
       ingreso: '10/05/2010',
       foto: 'img/neiser.png'
     },
@@ -15,7 +24,7 @@ const equipo = {
       cargo: 'Supervisor de SP-HD-NOC',
       descripcion: 'Supervisa el equipo de Help Desk y garantiza la calidad del servicio.',
       hobby: 'Fútbol y videojuegos',
-      cumpleanos: '22/07/1985',
+      cumpleanos: '16/05/1985',
       ingreso: '15/08/2015',
       foto: 'img/neiser.png'
     },
@@ -24,7 +33,7 @@ const equipo = {
       cargo: 'Supervisor de HD',
       descripcion: 'Supervisa el equipo de Help Desk y garantiza la calidad del servicio.',
       hobby: 'Fútbol y videojuegos',
-      cumpleanos: '22/07/1985',
+      cumpleanos: '21/06/1985',
       ingreso: '15/08/2015',
       foto: 'img/neiser.png'
     },
@@ -33,7 +42,7 @@ const equipo = {
       cargo: 'Supervisor de SOP',
       descripcion: 'Encargado del equipo de soporte técnico de segundo nivel.',
       hobby: 'Fotografía y viajes',
-      cumpleanos: '03/07/1988',
+      cumpleanos: '01/06/1988',
       ingreso: '22/07/1985',
       foto: 'img/neiser.png'
     },
@@ -42,8 +51,8 @@ const equipo = {
       cargo: 'Supervisor de SOP',
       descripcion: 'Coordinador del equipo de soporte técnico especializado.',
       hobby: 'Música y cocina',
-      cumpleanos: '18/07/1987',
-      ingreso: '05/07/2017',
+      cumpleanos: '18/08/1987',
+      ingreso: '15/08/2017',
       foto: 'img/neiser.png'
     },
     'geam-pari': {
@@ -51,7 +60,7 @@ const equipo = {
       cargo: 'Supervisor de NOC',
       descripcion: 'Responsable del centro de operaciones de red.',
       hobby: 'Trekking y tecnología',
-      cumpleanos: '30/01/1983',
+      cumpleanos: '10/09/1983',
       ingreso: '12/10/2014',
       foto: 'img/neiser.png'
     },
@@ -71,7 +80,7 @@ const equipo = {
       cargo: 'Líder Técnico (LT)',
       descripcion: 'Experto en sistemas y soporte técnico avanzado.',
       hobby: 'Robótica y electrónica',
-      cumpleanos: '08/04/1989',
+      cumpleanos: '04/03/1989',
       ingreso: '22/06/2019',
       foto: 'img/neiser.png'
     },
@@ -80,7 +89,7 @@ const equipo = {
       cargo: 'Líder Técnico (LT)',
       descripcion: 'Especialista en infraestructura y redes.',
       hobby: 'Videojuegos y deportes',
-      cumpleanos: '14/02/1992',
+      cumpleanos: '04/08/1992',
       ingreso: '10/09/2020',
       foto: 'img/neiser.png'
     },
@@ -89,7 +98,7 @@ const equipo = {
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '27/05/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -98,7 +107,7 @@ const equipo = {
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '27/09/1984',
       ingreso: '03/03/2013',
       foto: 'img/shirley.png'
     },
@@ -107,7 +116,7 @@ const equipo = {
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '08/09/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -116,7 +125,7 @@ const equipo = {
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '21/09/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -125,7 +134,7 @@ const equipo = {
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '26/02/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -134,7 +143,7 @@ const equipo = {
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '12/11/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -143,7 +152,7 @@ const equipo = {
       cargo: 'Técnico de Soporte',
       descripcion: 'Soporte técnico de primer nivel con amplia experiencia.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '14/06/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -152,7 +161,7 @@ const equipo = {
       cargo: 'Back Office (BO)',
       descripcion: 'Soporte administrativo y gestión proveedores.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '06/08/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -162,7 +171,7 @@ const equipo = {
       cargo: 'Back Office (BO)',
       descripcion: 'Soporte administrativo y gestión de tickets.',
       hobby: 'Lectura y escritura',
-      cumpleanos: '07/10/1991',
+      cumpleanos: '10/06/1991',
       ingreso: '18/11/2019',
       foto: 'img/neiser.png'
     },
@@ -171,7 +180,7 @@ const equipo = {
       cargo: 'Back Office (BO)',
       descripcion: 'Soporte administrativo y gestión de tickets.',
       hobby: 'Baile y manualidades',
-      cumpleanos: '28/08/1993',
+      cumpleanos: '14/07/1993',
       ingreso: '05/05/2021',
       foto: 'img/neiser.png'
     },
@@ -180,7 +189,7 @@ const equipo = {
       cargo: 'Back Office (BO)',
       descripcion: 'Soporte administrativo y gestión de tickets.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '14/10/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -189,7 +198,7 @@ const equipo = {
       cargo: 'Back Office (BO)',
       descripcion: 'Soporte administrativo y gestión de tickets.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '23/04/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -199,7 +208,7 @@ const equipo = {
       descripcion: 'Atención al cliente y seguimiento de casos.',
       hobby: 'Pesca y carpintería',
       cumpleanos: '19/05/1984',
-      ingreso: '03/03/2013',
+      ingreso: '16/03/2013',
       foto: 'img/neiser.png'
     },
     'sthephanny': {
@@ -216,7 +225,7 @@ const equipo = {
       cargo: 'Técnico de HD',
       descripcion: 'Atención al cliente y seguimiento de casos.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '22/11/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -225,7 +234,7 @@ const equipo = {
       cargo: 'Técnico de HD',
       descripcion: 'Atención al cliente y seguimiento de casos.',
       hobby: 'Pesca y carpintería',
-      cumpleanos: '19/05/1984',
+      cumpleanos: '10/08/1984',
       ingreso: '03/03/2013',
       foto: 'img/neiser.png'
     },
@@ -235,7 +244,7 @@ const equipo = {
       cargo: 'Técnico de NOC',
       descripcion: 'Monitoreo de red y respuesta a incidentes.',
       hobby: 'Cine y series',
-      cumpleanos: '12/06/1986',
+      cumpleanos: '27/05/1986',
       ingreso: '30/07/2018',
       foto: 'img/neiser.png'
     },
@@ -244,7 +253,7 @@ const equipo = {
       cargo: 'Técnico de NOC',
       descripcion: 'Administración de servidores y redes.',
       hobby: 'Fútbol y música',
-      cumpleanos: '09/01/1994',
+      cumpleanos: '20/01/1994',
       ingreso: '14/02/2022',
       foto: 'img/neiser.png'
     },
@@ -364,7 +373,23 @@ const equipo = {
       modal.style.display = 'none';
     }
   }
-  
+    // Crear el contenedor y la imagen
+  const contenedor = document.createElement('div');
+  contenedor.classList.add('avatar');
+
+  const img = document.createElement('img');
+  img.src = perfil.foto;
+  img.alt = perfil.nombre;
+  img.classList.add('avatar-img');
+
+  // Evento para mostrar imagen ampliada
+  img.addEventListener('click', () => {
+    document.getElementById('overlayImg').src = perfil.foto;
+    document.getElementById('imageOverlay').classList.add('active');
+  });
+
+  contenedor.appendChild(img);
+  document.body.appendChild(contenedor); // o donde quieras insertar la imagen
   // Inicializar
   document.addEventListener('DOMContentLoaded', function() {
     actualizarProximosCumpleanos();

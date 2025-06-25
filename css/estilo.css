@@ -225,3 +225,14 @@ body {
       margin: 10% auto;
     }
   }
+  .avatar img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+  }
+
+  .avatar:hover img {
+    transform: scale(1.5); /* Aumenta el tamaño al 150% */
+    z-index: 10;
+  }
