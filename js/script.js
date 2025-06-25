@@ -373,23 +373,6 @@ const equipo = {
       modal.style.display = 'none';
     }
   }
-    // Crear el contenedor y la imagen
-  const contenedor = document.createElement('div');
-  contenedor.classList.add('avatar');
-
-  const img = document.createElement('img');
-  img.src = perfil.foto;
-  img.alt = perfil.nombre;
-  img.classList.add('avatar-img');
-
-  // Evento para mostrar imagen ampliada
-  img.addEventListener('click', () => {
-    document.getElementById('overlayImg').src = perfil.foto;
-    document.getElementById('imageOverlay').classList.add('active');
-  });
-
-  contenedor.appendChild(img);
-  document.body.appendChild(contenedor); // o donde quieras insertar la imagen
   // Inicializar
   document.addEventListener('DOMContentLoaded', function() {
     actualizarProximosCumpleanos();
