@@ -201,6 +201,15 @@ const equipo = {
     ingreso: '03/03/2013',
     foto: 'img/anderson.png'
   },
+  'bruno': {
+    nombre: 'Bruno Evzen Burgos Bardales',
+    cargo: 'Técnico de HD',
+    descripcion: 'Encargado del registro y clasificación de incidencias, soporte remoto y presencial.',
+    hobby: 'Skateboarding y reparación de gadgets',
+    cumpleanos: '10/08/1999',
+    ingreso: '03/03/2013',
+    foto: 'img/neiser.png'
+  },
   'oscar': {
     nombre: 'Oscar Grimaldo Torres Venegas',
     cargo: 'Técnico de HD',
