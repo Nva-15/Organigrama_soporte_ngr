@@ -206,7 +206,7 @@ const equipo = {
     cargo: 'Técnico de HD',
     descripcion: 'Encargado del registro y clasificación de incidencias, soporte remoto y presencial.',
     hobby: 'Skateboarding y reparación de gadgets',
-    cumpleanos: '10/08/1999',
+    cumpleanos: '08/08/2000',
     ingreso: '03/03/2013',
     foto: 'img/neiser.png'
   },
