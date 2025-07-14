@@ -98,7 +98,7 @@ const equipo = {
     descripcion: 'Técnico responsable del soporte de primer nivel, experto en atención al usuario y resolución de incidencias comunes.',
     hobby: 'Artesanía en madera y pesca deportiva',
     cumpleanos: '27/05/2000',
-    ingreso: '03/03/2013',
+    ingreso: '03/03/2013',    
     foto: 'img/neiser.png'
   },
   'shirley-gonzales': {
