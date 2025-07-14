@@ -277,31 +277,34 @@ const equipo = {
 };
 
   
-  // Mostrar próximos cumpleaños
   function actualizarProximosCumpleanos() {
-    const hoy = new Date();
-    const cumpleanosProximos = [];
-    
-    for (const id in equipo) {
-      const [dia, mes] = equipo[id].cumpleanos.split('/').map(Number);
-      const fechaCumple = new Date(hoy.getFullYear(), mes - 1, dia);
-      
-      // Si el cumpleaños ya pasó este año, verificar el próximo año
-      if (fechaCumple < hoy) {
-        fechaCumple.setFullYear(hoy.getFullYear() + 1);
-      }
-      
-      const diasRestantes = Math.floor((fechaCumple - hoy) / (1000 * 60 * 60 * 24));
-      
-      if (diasRestantes <= 30) {
-        cumpleanosProximos.push({
-          nombre: equipo[id].nombre,
-          dias: diasRestantes,
-          fecha: `${dia}/${mes}`
-        });
-      }
+  const hoy = new Date();
+  hoy.setHours(0, 0, 0, 0); // Eliminar horas, minutos y segundos
+
+  const cumpleanosProximos = [];
+
+  for (const id in equipo) {
+    const [dia, mes] = equipo[id].cumpleanos.split('/').map(Number);
+    const fechaCumple = new Date(hoy.getFullYear(), mes - 1, dia);
+    fechaCumple.setHours(0, 0, 0, 0); // Eliminar horas de la fecha de cumpleaños también
+
+    // Si el cumpleaños ya pasó este año, considerar el del próximo año
+    if (fechaCumple < hoy) {
+      fechaCumple.setFullYear(hoy.getFullYear() + 1);
     }
-    // Ordenar por días restantes
+
+    const diasRestantes = Math.floor((fechaCumple - hoy) / (1000 * 60 * 60 * 24));
+
+    if (diasRestantes <= 30) {
+      cumpleanosProximos.push({
+        nombre: equipo[id].nombre,
+        dias: diasRestantes,
+        fecha: `${dia}/${mes}`
+      });
+    }
+  }
+
+  // Ordenar por días restantes
   cumpleanosProximos.sort((a, b) => a.dias - b.dias);
 
   const notificacion = document.getElementById('cumpleanos-notificacion');
@@ -313,7 +316,13 @@ const equipo = {
 
     cumpleanosProximos.slice(0, 3).forEach(persona => {
       const item = document.createElement('li');
-      item.textContent = `${persona.nombre} (${persona.fecha}) - ${persona.dias} días`;
+
+      if (persona.dias === 0) {
+        item.textContent = `${persona.nombre} (${persona.fecha}) - ¡Hoy! 🎉`;
+      } else {
+        item.textContent = `${persona.nombre} (${persona.fecha}) - en ${persona.dias} días`;
+      }
+
       lista.appendChild(item);
     });
 
@@ -327,7 +336,8 @@ const equipo = {
   } else {
     notificacion.textContent = 'No hay cumpleaños próximos en los próximos 30 días';
   }
-  }
+}
+
   
   // Calcular tiempo en la empresa
   function calcularTiempoEmpresa(fechaIngreso) {
