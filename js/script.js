@@ -279,16 +279,16 @@ const equipo = {
   
   function actualizarProximosCumpleanos() {
   const hoy = new Date();
-  hoy.setHours(0, 0, 0, 0); // Eliminar horas, minutos y segundos
+  hoy.setHours(0, 0, 0, 0); // Quitar horas
 
   const cumpleanosProximos = [];
 
   for (const id in equipo) {
     const [dia, mes] = equipo[id].cumpleanos.split('/').map(Number);
     const fechaCumple = new Date(hoy.getFullYear(), mes - 1, dia);
-    fechaCumple.setHours(0, 0, 0, 0); // Eliminar horas de la fecha de cumpleaños también
+    fechaCumple.setHours(0, 0, 0, 0); // También quitar horas
 
-    // Si el cumpleaños ya pasó este año, considerar el del próximo año
+    // Si ya pasó este año, revisar el siguiente
     if (fechaCumple < hoy) {
       fechaCumple.setFullYear(hoy.getFullYear() + 1);
     }
@@ -304,11 +304,10 @@ const equipo = {
     }
   }
 
-  // Ordenar por días restantes
   cumpleanosProximos.sort((a, b) => a.dias - b.dias);
 
   const notificacion = document.getElementById('cumpleanos-notificacion');
-  notificacion.innerHTML = ''; // Limpiar contenido previo
+  notificacion.innerHTML = '';
 
   if (cumpleanosProximos.length > 0) {
     const lista = document.createElement('ul');
@@ -316,13 +315,10 @@ const equipo = {
 
     cumpleanosProximos.slice(0, 3).forEach(persona => {
       const item = document.createElement('li');
-
-      if (persona.dias === 0) {
-        item.textContent = `${persona.nombre} (${persona.fecha}) - ¡Hoy! 🎉`;
-      } else {
-        item.textContent = `${persona.nombre} (${persona.fecha}) - en ${persona.dias} días`;
-      }
-
+      item.textContent =
+        persona.dias === 0
+          ? `${persona.nombre} (${persona.fecha}) - 🎉 ¡Hoy!`
+          : `${persona.nombre} (${persona.fecha}) - en ${persona.dias} días`;
       lista.appendChild(item);
     });
 
