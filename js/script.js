@@ -16,7 +16,7 @@ const equipo = {
     hobby: 'Lectura de tecnología aplicada y ciclismo urbano',
     cumpleanos: '10/11/1980',
     ingreso: '10/05/2010',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   // Supervisores
   'joel': {
@@ -26,7 +26,7 @@ const equipo = {
     hobby: 'Análisis de videojuegos y tácticas de fútbol',
     cumpleanos: '16/05/1994',
     ingreso: '15/08/2015',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'andres-ramos': {
     nombre: 'Andres Saul Ramos Sanchez',
@@ -81,7 +81,7 @@ const equipo = {
     hobby: 'Electrónica aplicada y robótica casera',
     cumpleanos: '04/03/1991',
     ingreso: '22/06/2019',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'axel-aguirre': {
     nombre: 'Axel Aguirre Encarnacion',
@@ -99,7 +99,7 @@ const equipo = {
     hobby: 'Artesanía en madera y pesca deportiva',
     cumpleanos: '27/05/2000',
     ingreso: '03/03/2013',    
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'shirley-gonzales': {
     nombre: 'Shirley Carolina Gonzales Palacios',
@@ -117,7 +117,7 @@ const equipo = {
     hobby: 'Modelismo y ciclismo de ruta',
     cumpleanos: '08/09/1996',
     ingreso: '03/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'brando': {
     nombre: 'Brando Renato Medina Vasquez',
@@ -144,7 +144,7 @@ const equipo = {
     hobby: 'Viajes cortos y tecnología de consumo',
     cumpleanos: '12/11/1998',
     ingreso: '03/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'jean-mejia': {
     nombre: 'Jean Pierre Jesus Mejia Mango',
@@ -153,7 +153,7 @@ const equipo = {
     hobby: 'Escalada y lectura de fantasía',
     cumpleanos: '14/06/1996',
     ingreso: '03/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'mirian': {
     nombre: 'Miriam Ruiz Puma',
@@ -172,7 +172,7 @@ const equipo = {
     hobby: 'Ensayo creativo y novelas de ciencia ficción',
     cumpleanos: '10/06/1996',
     ingreso: '18/11/2019',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'sheyla': {
     nombre: 'Sheyla Galarza Galarza',
@@ -181,7 +181,7 @@ const equipo = {
     hobby: 'Baile moderno y pintura en acrílico',
     cumpleanos: '14/07/1996',
     ingreso: '05/05/2021',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'joseph': {
     nombre: 'Joseph Alexander Jaramillo Alvarez',
@@ -190,7 +190,7 @@ const equipo = {
     hobby: 'Diseño de muebles y fotografía de paisajes',
     cumpleanos: '14/10/1997',
     ingreso: '03/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'anderson': {
     nombre: 'Anderson Adrian Pisfil Maza',
@@ -208,7 +208,7 @@ const equipo = {
     hobby: 'Skateboarding y reparación de gadgets',
     cumpleanos: '08/08/2000',
     ingreso: '03/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'oscar': {
     nombre: 'Oscar Grimaldo Torres Venegas',
@@ -217,7 +217,7 @@ const equipo = {
     hobby: 'Cómics y mantenimiento de hardware',
     cumpleanos: '16/03/2000',
     ingreso: '16/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'sthephanny': {
     nombre: 'Sthephanny Naomy Cristal Callan Vicente',
@@ -226,7 +226,7 @@ const equipo = {
     hobby: 'Diseño de uñas y decoración creativa',
     cumpleanos: '22/03/2004',
     ingreso: '03/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/sthephanny.png'
   },
   'anyela': {
     nombre: 'Anyela Melissa Luna Huamani',
@@ -235,7 +235,7 @@ const equipo = {
     hobby: 'Lectura romántica y canto',
     cumpleanos: '22/11/1992',
     ingreso: '03/03/2013',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'alfonso': {
     nombre: 'Alfonso Giampierre Rios Rodriguez',
@@ -263,7 +263,7 @@ const equipo = {
     hobby: 'Tocar guitarra y torneos de fútbol',
     cumpleanos: '20/01/1999',
     ingreso: '14/02/2022',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   },
   'yesenia': {
     nombre: 'Yesenia Sheyla Calixtro Laurente',
@@ -272,7 +272,7 @@ const equipo = {
     hobby: 'Cine independiente y senderismo',
     cumpleanos: '21/02/1997',
     ingreso: '30/07/2018',
-    foto: 'img/neiser.png'
+    foto: 'img/perfil.png'
   }
 };
 
